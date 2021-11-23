@@ -1,13 +1,9 @@
-#include<stdio.h>
-int main()
-{
-    
-    For(int I = 1; I < 10; i++){
-    For(int k = I; k <= 9; k++){
-    Printf(“%d “, k);
-}
-    Printf(“\n”);
-}
-
-Return 0;
+#include <stdio.h>
+int main(){
+    for(int x = 1; x<=9;x++){
+        for(int y = x;y<=9;y++){
+            y == 9 ? printf("%d\n", y) : printf("%d", y);
+        }
+    }
+    return 0;
 }
